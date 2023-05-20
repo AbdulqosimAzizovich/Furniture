@@ -1,0 +1,123 @@
+#about{
+    background: #19191B;
+    position: relative;
+
+
+    
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+        column-gap: 195px;
+
+        .left_card{
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start ;
+
+            h2{
+                width: 517px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 69px;
+                color: #FFFFFF;
+                margin-bottom: 50px;
+            }
+            .info-box{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                .user-info{
+                    
+                    display: flex;
+                    align-items: center;
+                    column-gap: 15px;
+                    margin-bottom: 20px;
+
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+
+                .status{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 5px;
+
+
+                    .name{
+                        width: 89px;                   
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 26px;
+                        color: #FFFFFF;
+
+                    }
+
+                    .u_status{
+                             width: 63px;                       
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 20px;
+
+                            color: rgba(255, 255, 255, 0.7);
+                    }
+
+                }
+
+
+                }
+                .user-info_desc{
+                    width: 383px;
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+                    margin-bottom: 30px;
+
+
+                }
+                .arrow-box{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 20px;
+
+                    .no-active{
+                        padding: 20px;
+                        background: #313136;
+                        border-radius: 50%;
+                        width: 50px;
+                        height: 50px;
+                    }
+                    .active{
+                        width: 50px;
+                        height: 50px;
+                        background: #EF4358;
+                        border-radius: 50%;
+                        padding: 20px;
+                    }
+                }
+                
+            }
+            
+        }
+
+        .slash{
+            position: absolute;
+            top: 0px;
+            left: 130px;
+        }
+    }
+}
