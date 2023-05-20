@@ -1,0 +1,64 @@
+#hero {
+    background-image: url(../../assets/images/pictr.jpg);
+    padding-top: 160px;
+    height: 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center calc(50% - 149px);
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        h2 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 60px;
+            text-align: center;
+            margin: 0 auto;
+            color: #1d1f23;
+            max-width: 645px;
+            widows: 100%;
+            margin-bottom: 10px;
+            span {
+                color: #f6973f;
+            }
+        }
+
+        p {
+            font-family: "";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            color: #1d1f23;
+            margin-bottom: 20px;
+            max-width: 535px;
+            width: 100%;
+        }
+
+        a {
+            width: 177px;
+            height: 58px;
+            background: #f6973f;
+            border-radius: 50px;
+            padding: 1px 37px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 60px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+       
+    }
+}
+

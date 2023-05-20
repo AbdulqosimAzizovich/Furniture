@@ -1,0 +1,31 @@
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(10px);
+
+    .wrapper{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__list-1{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            &:hover{
+                color: red;
+            }
+        }
+
+        &__list-2{
+            display: flex;
+            gap: 42px;
+        }
+    }
+
+    
+}
+
