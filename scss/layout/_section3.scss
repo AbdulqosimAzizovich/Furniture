@@ -1,0 +1,44 @@
+.top__card{
+   width: 235px;
+}
+.left__top{
+    gap: 62px;
+}
+.left__button{
+    margin-top: 50px;
+    padding: 1px 29px;
+    border: none;
+    background: #EF4358;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px; 
+    text-align: center; 
+    color: #FFFFFF;
+}
+
+.left__title{
+    width: 232px; 
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px; 
+    color: #1D1F23;
+    margin: 17px 0 5px 0;
+}
+
+.left-desc{
+    width: 235px; 
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px; 
+    color: rgba(29, 31, 35, 0.7); 
+}
+
+#info{
+    margin-bottom: 100px;
+}
