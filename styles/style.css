@@ -424,9 +424,78 @@ header .wrapper__list-2 {
   text-decoration: none;
 }
 
+#contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+}
+#contact h1 {
+  width: 727px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 69px;
+  color: #1d1f23;
+}
+#contact button {
+  width: 201px;
+  background: #f6973f;
+  border-radius: 50px;
+  padding: 16px;
+  border: 1px solid transparent;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
 footer {
   width: 100%;
-  height: auto;
+  height: 113px;
+  background: #19191b;
+}
+footer .bottom {
+  width: 100%;
+  height: 113px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .bottom .logo {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+footer .bottom .logo p {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+footer .f_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+footer .f_list a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+footer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+  letter-spacing: -0.500211px;
+  color: #ffffff;
 }
 
 #cards {
