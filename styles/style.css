@@ -356,7 +356,7 @@ header .wrapper__list-1 {
   align-items: center;
   gap: 50px;
 }
-header .wrapper__list-1:hover {
+header .wrapper__list-1 p:hover {
   color: red;
 }
 header .wrapper__list-2 {
@@ -422,6 +422,11 @@ header .wrapper__list-2 {
   align-items: center;
   color: #ffffff;
   text-decoration: none;
+  transition: all 1s ease;
+}
+#hero .wrapper a:hover {
+  background: #d67214;
+  color: #ffffff;
 }
 
 #contact {
@@ -509,14 +514,14 @@ footer p {
   justify-content: space-between;
 }
 #cards .wrapper__list--item {
-  padding: 15px;
-  position: relative;
   height: 441.73px;
   display: flex;
   flex-direction: column;
   width: 268.09px;
   background: #ffffff;
   border-radius: 20px;
+  padding: 15px;
+  position: relative;
 }
 #cards .wrapper__list--item .new_img {
   padding-left: 25px;

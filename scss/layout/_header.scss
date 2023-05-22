@@ -16,9 +16,12 @@ header {
             align-items: center;
             gap: 50px;
 
+           p{
+
             &:hover{
                 color: red;
             }
+           }
         }
 
         &__list-2{
